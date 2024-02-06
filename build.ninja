@@ -2,7 +2,7 @@
 
 # 定义C++编译器
 cxx = clang++
-framework = -framework Foundation
+framework = -framework Foundation -framework AppKit -framework CoreData
 
 # 编译规则
 rule compile
